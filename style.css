@@ -10,16 +10,6 @@ body > * {
 	width: 100%;
 }
 
-/* smartphones/smaller devices */
-@media screen (max-width: 767px) {
-
-}
-
-/* tablets/larger mobile devices */
-@media screen (max-width: 1024px) {
-
-}
-
 nav {
 	height: 48px;
 	position: sticky;
