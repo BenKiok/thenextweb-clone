@@ -42,6 +42,10 @@ nav a {
 	align-items: center;
 }
 
+.invisible {
+	display: none;
+}
+
 .nav-text {
 	text-transform: uppercase;
 	padding: 0 12px;
@@ -250,6 +254,11 @@ nav a {
 	justify-content: center;
 }
 
+.main-video {
+	display: flex;
+	flex-direction: column;
+}
+
 .media iframe {
 	height: 540px;
 	width: 960px;
@@ -264,6 +273,7 @@ nav a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .caption > * {
@@ -272,7 +282,7 @@ nav a {
 
 .more-videos {
 	width: 250px;
-	height: 685px;
+	height: 680px;
 	border: 1px solid aquamarine;
 
 	display: flex;
