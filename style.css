@@ -42,7 +42,7 @@ nav a {
 	align-items: center;
 }
 
-.invisible {
+.invisible, .also-invisible {
 	display: none;
 }
 
@@ -281,7 +281,7 @@ nav a {
 }
 
 .more-videos {
-	width: 250px;
+	width: 100px;
 	height: 680px;
 	border: 1px solid aquamarine;
 
@@ -321,6 +321,7 @@ nav a {
 
 .collaborate div {
 	padding: 0 35px;
+	
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto auto;
