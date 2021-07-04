@@ -1,0 +1,181 @@
+/* tablets/larger mobile devices */
+@media screen and (max-width: 1024px) {
+  nav {
+    padding: 0 10px;
+    justify-content: left;
+    height: 56px;
+  }
+
+  nav a:first-child {
+    cursor: default;
+    margin-right: 8px;
+  }
+
+  .fa-th {
+    color: #a7aab2;
+    font-size: 1.3rem;
+    padding-left: 6px;
+  }
+
+  .logo {
+    padding-left: 6px;
+  }
+
+  .logo path {
+    fill: #a7aab2;
+  }
+
+  .invisible {
+    display: inline-flex;
+  }
+
+  .visible {
+    display: none;
+  }
+
+  .main {
+    height: 1100px;
+    padding: 0 64px 80px 64px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 2fr 1fr 1fr;
+  }
+
+  .headings {
+    grid-column: 1 / -1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headings svg {
+    padding-top: 30px;
+    width: 350px;
+  }
+
+  .headings h2 {
+    padding: 20px 0 30px 0;
+    font-size: 1.2rem;
+  }
+
+  .main1 {
+    grid-column: 1 / -1;
+    grid-row: auto / span 1;
+  }
+
+  .main2, .main4 {
+    grid-column: 1 / span 1;
+    grid-row: auto / span 1;
+  }
+
+  .main3, .main5 {
+    grid-column: span 1 / -1;
+    grid-row: auto / span 1;
+  }
+
+  .wrapper1 {
+    grid-auto-flow: row;
+  }
+
+  .pop-article h4 {
+    padding-bottom: 20px;
+  }
+
+  .wrapper2 {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .explore {
+    padding: 110px 64px;
+  }
+
+  .wrapper3 {
+    overflow-y: hidden;
+	  overflow-x: scroll;
+  }
+
+  .wrapper3::-webkit-scrollbar {
+    display: none;
+  }
+
+  .channel {
+    width: 216px;
+  }
+
+  .subscribe h1 {
+    font-size: 2rem;
+  }
+
+  .subscribe form input {
+    width: 450px;
+  }
+
+  .review > div {
+    width: 100%;
+    padding: 0 64px;
+  }
+
+  .media {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+
+  .media iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .more-videos {
+    max-height: 500px;
+  }
+
+  .icons > div {
+    flex-direction: column;
+  }
+
+  .icons h4 {
+    padding-left: 0;
+    padding-top: 15px;
+    font-size: 1.1rem;
+  }
+
+  .collaborate .companies {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .companies img {
+    width: 170px;
+  }
+
+  footer > div {
+    padding: 64px 50px 0 50px;
+  }
+
+  footer > div > div {
+    flex-flow: row wrap;
+    height: 100%;
+  }
+
+  footer .logos {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  footer .socials {
+    margin-top: 40px;
+  }
+
+  footer .footer-links {
+    width: 50%;
+    padding: 30px 0 20px 0;
+  }
+}
